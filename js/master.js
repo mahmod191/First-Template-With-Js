@@ -102,10 +102,10 @@ randomBackEl.forEach((span) => {
 //////////////////////////////////////////////////////////////////////////////////
 //|||||||||||||||||||||||||||||||||||||||||||||||
 // Select Landing Page Element
-let landingPage = document.querySelector(".landing-page"); // العنصر div لديه كلاس .landing-page
+let landingPage = document.querySelector(".landing-page"); 
 
 // Get Arrey Of imgs
-let imgsArrey = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"]; // الصور الموجودين في ملف الصور
+let imgsArrey = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"]; 
 
 // console.log(randomNumber);
 
