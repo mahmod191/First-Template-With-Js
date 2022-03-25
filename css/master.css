@@ -223,6 +223,11 @@ a {
   position: relative;
   transition: var(--main-transition);
 }
+@media (max-width: 400px) {
+  .nav-bullets .bullet:nth-child(4) {
+    display: none;
+  }
+}
 .nav-bullets .tooltip {
   position: absolute;
   left: -123px;
@@ -357,6 +362,11 @@ a {
   }
   .header-area .toggel-menu {
     display: block;
+  }
+}
+@media (max-width: 400px) {
+  .header-area .links.open li:nth-child(4) {
+    display: none;
   }
 }
 @media (max-width: 767px) {
